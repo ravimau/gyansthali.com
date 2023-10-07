@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gyansthali Internation School</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assest/css/style.css">
+</head>
+
+<body>
+  <!-- Header Section Start -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex" href="index.html">
+          <img src="./assest/img/Logo2.png" alt="Logo" width="80" height="">
+          <div class="d-inline mt-2 ms-2 text-center fw-bold">
+            <span class="fs-4 mb-0">Gyansthali</span><br>
+            <span class="mt-0">International School</span>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item bg-danger2">
+              <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CLASSES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="class.html">Classes</a></li>
+                <li><a class="dropdown-item" href="classes.html">Classes Details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                TEACHERS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="teacher.html">Teachers</a></li>
+                <li><a class="dropdown-item" href="teachers.html">Teachers Details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                <li><a class="dropdown-item" href="ourteachers.html">Our Teachers</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                <li><a class="dropdown-item" href="ourprice.html">Our Pricing</a></li>
+                <li><a class="dropdown-item" href="faqs.html">Faqs</a></li>
+                <li><a class="dropdown-item" href="testimonial.html">Testimonials</a></li>
+                <li><a class="dropdown-item" href="typography.html">Typography</a></li>
+                <li><a class="dropdown-item" href="#">404</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                BLOG
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item" href="bloggrid.html">Blog Grid Sidebar</a></li>
+                <li><a class="dropdown-item" href="bloglist.html">Blog List Sidebar</a></li>
+                <li><a class="dropdown-item" href="blogdetails.html">Blog Details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <!-- <input class="form-control me-2 border border-0 bg-light" type="search" placeholder="Search" aria-label="Search"> -->
+            <button class="btn btn-outline-danger  rounded-circle me-2" type="submit"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="btn btn-danger ">Login/Register</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header Section  -->
+  <!-- Slider Setcion Start -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./assest/img/1.jpg" class="d-block w-100" alt="1st Image" height="800">
+        <div class="carousel-caption d-none d-md-block text-white slidetext1">
+          <h5>Gyansthali International School</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./assest/img/7.jpeg" class="d-block w-100" alt="2nd Image" height="800">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <h5>Gyansthali International School</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./assest/img/6.jpeg" class="d-block w-100" alt="3rd Image" height="800">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <h5>Gyansthali International School</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Slider Setcion End -->
+  <!-- Our Feature Section Start -->
+  <div class="ourFeature mx-auto">
+    <div class="container">
+      <div class="row mt-5 mt-lg-0">
+        <div class="col-md-6 col-lg-3 mt-5 pt-5">
+          <div class="card bg-warning2 text-white position-relative">
+            <div class="card-body">
+              <h4 class="card-title text-center fw-thin mb-0 pb-0 mt-5 pt-3">Expert teachers</h4>
+              <h2 class="text-decoration-underline text-center mt-0">&nbsp; &nbsp; &nbsp;</h2>
+              <p class="card-text text-center mb-3">With supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <div class="bg-white shadow rounded-circle p-4 position-absolute top-0 start-50 translate-middle">
+              <img src="./assest/img/teacher.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 pt-5">
+          <div class="card bg-danger2 text-white position-relative">
+            <div class="card-body">
+              <h4 class="card-title text-center fw-thin mb-0 pb-0 mt-5 pt-3">Expert teachers</h4>
+              <h2 class="text-decoration-underline text-center mt-0">&nbsp; &nbsp; &nbsp;</h2>
+              <p class="card-text text-center mb-3">With supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <div class="bg-white shadow rounded-circle p-4 position-absolute top-0 start-50 translate-middle">
+              <img src="./assest/img/book.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 pt-5">
+          <div class="card bg-primary2 text-white position-relative">
+            <div class="card-body">
+              <h4 class="card-title text-center fw-thin mb-0 pb-0 mt-5 pt-3">Expert teachers</h4>
+              <h2 class="text-decoration-underline text-center mt-0">&nbsp; &nbsp; &nbsp;</h2>
+              <p class="card-text text-center mb-3">With supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <div class="bg-white shadow rounded-circle p-4 position-absolute top-0 start-50 translate-middle">
+              <img src="./assest/img/support.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 pt-5">
+          <div class="card bg-info2 text-white position-relative">
+            <div class="card-body">
+              <h4 class="card-title text-center fw-thin mb-0 pb-0 mt-5 pt-3">Expert teachers</h4>
+              <h2 class="text-decoration-underline text-center mt-0">&nbsp; &nbsp; &nbsp;</h2>
+              <p class="card-text text-center mb-3">With supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <div class="bg-white shadow rounded-circle p-4 position-absolute top-0 start-50 translate-middle">
+              <img src="./assest/img/scholarship.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Our Feature Section End -->
+  <!-- Online Learning Section Start -->
+  <div class="onlineLearning">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <img src="./assest/img/aboutImg.png" alt="About Image" class="img-fluid">
+        </div>
+        <div class="col-lg-5">
+          <div>
+            <h2>Online Learing <span class="d-block">PLatform</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repellendus autem quis molestias ullam
+              ducimus et doloremque vitae, inventore optio officia fugit laborum! Saepe impedit et omnis facere quis
+              aut!
+            </p>
+            <div class="row">
+              <div class="col-2">
+                <div class="bg-info2 rounded-circle py-3 px-1 text-white mt-3">
+                  <img src="./assest/img/education.png" alt="" class="img-fluid d-block mx-auto">
+                </div>
+              </div>
+              <div class="col-10">
+                <h3>Special Education</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga a veniam illo id ipsam iste.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <div class="bg-info3 rounded-circle py-3 px-1 text-white mt-3">
+                  <img src="./assest/img/class.png" alt="" class="img-fluid d-block mx-auto">
+                </div>
+              </div>
+              <div class="col-10">
+                <h3>Special Education</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga a veniam illo id ipsam iste.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <div class="bg-red1 rounded-circle py-3 px-1 text-white mt-3">
+                  <img src="./assest/img/academy.png" alt="" class="img-fluid d-block mx-auto">
+                </div>
+              </div>
+              <div class="col-10">
+                <h3>Special Education</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga a veniam illo id ipsam iste.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Online Learning Section End -->
+
+  <!--Our Popular Classes Start-->
+  <div class="container py-5">
+    <div class="row">
+      <h3 class="text-center">Our Popular Classes</h3>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/img/education_img.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Education Programs System</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/Img/kid_game.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Games Program held in a Week</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/Img/lab.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Labs Programs</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/Img/education_img.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Education Programs</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/Img/kid_game.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Games Program held in a Week</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/Img/lab.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Labs Programs</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/Img/education_img.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Education Programs</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/Img/kid_game.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Games Programs held in a Week</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assest/Img/lab.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Labs Programs</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!--Our Popular Classes End-->
+
+  <!--Choice Section Start-->
+  <div class="choice-wrap">
+    <div class="container">
+      <div class="title">
+        <h1>
+          We Are The Best
+          <space>Choice For Your Child</space>
+        </h1>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis placeat illum sint soluta, porro officiis
+        at magnam eos esse eaque eum dignissimos laborum delectus dolor officia vero, nam libero ea.</p>
+      <div class="readmore">
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <!--Choice Section End-->
+
+  <!--Videos Start-->
+  <!--<div class="video_wrap">
+    <div class="container">
+      <div class="title center_title">
+<h1>Watch Our Video</h1>
+      </div>
+<div class="video">
+  <div class="platbtn">
+    <a data-fancybox href="https://youtu.be/PZY-hB2C_Iw">
+      ::before
+      <span></span>
+      ::after
+    </a>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <!--Videos End-->-->
+
+  <!--Enroll Section Start-->
+  <div class="choice-wrap enroll-wrap">
+    <div class="container">
+      <div class="title">
+        <h1>Call To Enroll Your Child</h1>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quaerat aperiam porro quam doloremque beatae
+        officiis explicabo cumque commodi pariatur temporibus ut dolor eveniet consectetur rerum vero, vitae labore
+        architecto!</p>
+      <div class="phonewrp">
+        <img src="./assest/img/phone_icon.png">
+        <a href="#">7079009287</a>
+      </div>
+    </div>
+  </div>
+  <!--Enroll Section End-->
+
+  <!--Teacher Section Start-->
+  <section class="teachers-area-three teacher-wrap pt-100 pb-70">
+    <div class="container">
+      <div class="title center_title text-center py-5">
+        <h1>Our Teachers</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-teachers">
+            <div class="teacherImg">
+              <img src="./assest/img/teachers01.jpg" alt="Image">
+              <ul class="social-icon list-inline d-flex">
+                <li class="social-facebook">
+                  <a href="#">
+                    <i class="fab fa-facebook-f" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-twitter">
+                  <a href="#">
+                    <i class="fab fa-twitter" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-linkdin">
+                  <a href="#">
+                    <i class="fab fa-linkdin-in" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-googleplus">
+                  <a href="#">
+                    <i class="fab fa-instagram" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="teachers-content text-center">
+              <h3>Pooja Singh</h3>
+              <div class="designation">Arts Teacher </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-teachers">
+            <div class="teacherImg">
+              <img src="./assest/img/teachers02.jpg" alt="Image">
+              <ul class="social-icon list-inline d-flex">
+                <li class="social-facebook">
+                  <a href="#">
+                    <i class="fab fa-facebook-f" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-twitter">
+                  <a href="#">
+                    <i class="fab fa-twitter" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-linkdin">
+                  <a href="#">
+                    <i class="fab fa-linkdin-in" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-googleplus">
+                  <a href="#">
+                    <i class="fab fa-instagram" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="teachers-content text-center">
+              <h3>Sayali Patil</h3>
+              <div class="designation">Maths Teacher </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-teachers">
+            <div class="teacherImg">
+              <img src="./assest/img/teachers03.jpg" alt="Image">
+              <ul class="social-icon list-inline d-flex">
+                <li class="social-facebook">
+                  <a href="#">
+                    <i class="fab fa-facebook-f" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-twitter">
+                  <a href="#">
+                    <i class="fab fa-twitter" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-linkdin">
+                  <a href="#">
+                    <i class="fab fa-linkdin-in" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-googleplus">
+                  <a href="#">
+                    <i class="fab fa-instagram" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="teachers-content text-center">
+              <h3>Madhu Singh</h3>
+              <div class="designation">English Teacher </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-teachers">
+            <div class="teacherImg">
+              <img src="./assest/img/teachers04.jpg" alt="Image">
+              <ul class="social-icon list-inline d-flex">
+                <li class="social-facebook">
+                  <a href="#">
+                    <i class="fab fa-facebook-f" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-twitter">
+                  <a href="#">
+                    <i class="fab fa-twitter" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-linkdin">
+                  <a href="#">
+                    <i class="fab fa-linkdin-in" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+                <li class="social-googleplus">
+                  <a href="#">
+                    <i class="fab fa-instagram" aria-hidden="true">
+
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="teachers-content text-center">
+              <h3>Priyanka Maurya</h3>
+              <div class="designation">Science Teacher </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Teacher Section End-->
+
+  <!--Our Blog Start-->
+  <div class="blog-wrap flight-wrap">
+    <div class="container">
+      <div class="title text-center pt-5 py-5">
+        <h1>Our Blog</h1>
+      </div>
+      <div class="row unorderList">
+        <div class="row">
+          <li class="col-lg-4">
+            <div class="blog_box">
+              <div class="blogImg">
+                <img src="./assest/img/blog1.jpg" alt="Image">
+                <div class="time_box text-center">
+                  <span>08:00 am to 10:00 pm</span>
+                </div>
+              </div>
+              <div class="path_box text-center pt-3">
+                <h3>
+                  <a href="#" class="text-dark text-decoration-none">Education Programs</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut earum velit eius quasi fugit quibusdam?
+                  Nihil mollitia laudantium odit ex.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-lg-4">
+            <div class="blog_box">
+              <div class="blogImg">
+                <img src="./assest/img/blog2.jpg" alt="Image">
+                <div class="time_box text-center">
+                  <span>08:00 am to 10:00 pm</span>
+                </div>
+              </div>
+              <div class="path_box text-center pt-3">
+                <h3>
+                  <a href="#" class="text-dark text-decoration-none">Education Programs</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut earum velit eius quasi fugit quibusdam?
+                  Nihil mollitia laudantium odit ex.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-lg-4">
+            <div class="blog_box">
+              <div class="blogImg">
+                <img src="./assest/img/blog3.jpg" alt="Image">
+                <div class="time_box text-center">
+                  <span>08:00 am to 10:00 pm</span>
+                </div>
+              </div>
+              <div class="path_box text-center pt-3">
+                <h3>
+                  <a href="#" class="text-dark text-decoration-none">Education Programs</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut earum velit eius quasi fugit quibusdam?
+                  Nihil mollitia laudantium odit ex.</p>
+              </div>
+            </div>
+          </li>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--Our Blog End-->
+
+  <!--Newsletter Section Start-->
+  <div class="newsletter-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="title">
+            <h1>Newsletter</h1>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="news-info">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" name="Search" placeholder="Email Address">
+                <div class="form_icon">
+                  <i class="fas fa-invelope"></i>
+                </div>
+              </div>
+              <button class="sigup">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Newsletter Section End-->
+
+  <!--Footer Section Start-->
+  <div class="footer-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="footer_logo">
+            <img src="./assest/img/Logo2.png" alt class="footer-default" width="100px">
+          </div>
+          <p>Lorem ipsum dolor sit amet, adipiscing elit. Sed tempor, urna eu scelerisque maximus, urna nibh semper
+            lectus, ut interdum nunc ligula et magna. In ac mauris vehicula, vulputate sem at, placerat nisl. Etiam
+            laoreet erat magna, at hendrerit lorem vulputate non. Nam facilisis congue convallis.</p>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <h3>Quick links</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About Us</a>
+            </li>
+            <li>
+              <a href="classes.html">Classes</a>
+            </li>
+            <li>
+              <a href="teachers.html">Teachers</a>
+            </li>
+            <li>
+              <a href="testimonials.html">Testimonials</a>
+            </li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <h3>Opening Hours</h3>
+          <ul class="unorderList hourswrp">
+            <li>"Monday"
+              <span>08:00 - 02:00</span>
+            </li>
+            <li>"Tuesday"
+              <span>08:00 - 02:00</span>
+            </li>
+            <li>"Wednesday"
+              <span>08:00 - 02:00</span>
+            </li>
+            <li>"Thursday"
+              <span>08:00 - 02:00</span>
+            </li>
+            <li>"Friday"
+              <span>08:00 - 02:00</span>
+            </li>
+            <li>"Saturday"
+              <span>08:00 - 02:00</span>
+            </li>
+            <li>"Sunday"
+              <span>Close</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <div class="footer_info">
+            <h3>Get in Touch</h3>
+            <ul class="footer_-adress">
+              <li class="footer_address">
+                <i class="fas fa-map-signs"></i>
+                <span>123 Lorem Ipsum, 32 sit Atlanta</span>
+              </li>
+              <li class="footer_email">
+                <i class="fas fa-invelope" aria-hidden="true"></i>
+                <span>
+                  <a href="mailto:info@gmail.com">info@gmail.com</a>
+                </span>
+              </li>
+              <li class="footer_phone">
+                <i class="fas fa-phone-alt"> </i>
+                <span>
+                  <a href="tel:7079009287">7079009287</a>
+                </span>
+              </li>
+            </ul>
+            <div class="social-icons footer_icon">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f" aria-hidden="true">
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter" aria-hidden="true">
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram" aria-hidden="true">
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-youtube" aria-hidden="true">
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer Section End-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assest/js/script.js"></script>
+</body>
+
+</html>
